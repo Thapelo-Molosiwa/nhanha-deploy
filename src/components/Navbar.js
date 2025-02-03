@@ -4,6 +4,7 @@ import React from 'react';
 import { Menu, X } from 'lucide-react';
 import Link from 'next/link';  // Use Next.js Link instead of React Router
 import { usePathname } from 'next/navigation';  // Import from next/navigation
+import Image from 'next/image';  // Import Image from Next.js for optimized images
 
 import styles from '../styles/Navbar.module.css';
 
@@ -24,7 +25,13 @@ const Navbar = () => {
         <div className={styles.logo}>
           {/* Make the logo the home link */}
           <Link href="/" className={styles.logoText}>
-            NhaNha Engineering
+            <Image
+              src="/WhatsApp_Image_2025-02-03_at_12.59.33__1_-removebg-preview.png" // Path to your logo image in the public folder
+              alt="NhaNha Engineering Logo"
+              width={180} // Adjust width to your desired size
+              height={180} // Adjust height to match the logo's aspect ratio
+              className={styles.logoImage}
+            />
           </Link>
         </div>
 

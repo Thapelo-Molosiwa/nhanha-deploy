@@ -83,7 +83,7 @@ const About = () => {
           <div className={styles.founderContainer}>
             {/* Founder Image */}
             <img
-              src="DALL·E 2025-01-30 11.57.49 - A high-quality professional image of mining and construction workers wearing full safety gear, including helmets and vests, standing in an industrial .webp" // Add the actual image URL here
+              src="WhatsApp Image 2025-02-03 at 12.04.37.jpeg" // Add the actual image URL here
               alt="Okuhle Badli"
               className={styles.founderImage}
             />

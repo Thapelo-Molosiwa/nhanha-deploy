@@ -22,7 +22,7 @@ const Home = () => {
         </div>
         <div className={styles.heroTextContainer}>
           <h1 className={styles.heroTitle}>
-            Safety First, <br />Always
+            Your Safety, <br />Our Priority.
           </h1>
           <p className={styles.heroDescription}>
             Provider of comprehensive safety solutions for mining and construction industries.
