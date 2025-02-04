@@ -7,21 +7,16 @@
 
 /* 🌍 Global Styling for the <hr /> Divider */
 .hr {
-  border: none;  /* Remove the default border */
+  border: none;  
   height: 2px;   /* Set the height of the line */
   background: linear-gradient(to right, #FFA07A, #2E4053);  /* Gradient for a modern look */
   margin: 2rem 0;  /* Add spacing above and below */
-  width: 80%;  /* Control the width of the divider */
+  width: 70%;  /* Control the width of the divider */
   margin-left: auto;
   margin-right: auto; /* Center align */
   border-radius: 5px;  /* Rounded edges for a smoother look */
 }
 
-/* Optional: Add hover effect for a little interactivity */
-.hr:hover {
-  background: linear-gradient(to right, #2E4053, #FFA07A);  /* Reverse gradient on hover */
-  transition: background 0.3s ease;
-}
 
 
 /* 🎬 Hero Section */

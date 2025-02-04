@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+NhaNha Engineering
 
-## Getting Started
+🚀 About Us
+NhaNha Engineering is a technology-driven company specializing in safety enhancements for the mining and construction industries. We leverage AI-driven safety monitoring, drone-based hazard verification, and predictive maintenance to create safer work environments in high-risk industries.
 
-First, run the development server:
+Our mission is to innovate, enhance, and protect through smart engineering solutions that reduce risks, improve efficiency, and ensure compliance with safety standards.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌍 Our Focus Areas
+🔹 AI-Driven Safety Monitoring – Intelligent systems to detect hazards and prevent accidents.
+🔹 Drone-Based Hazard Verification – Aerial inspections for real-time safety assessments.
+🔹 Predictive Maintenance for Machinery – AI-powered maintenance to prevent equipment failures.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📌 Website Overview
+Our website is built with Next.js 15.1.6 using the App Router structure (app/ directory). It provides a seamless and professional experience, showcasing our services and expertise.
 
-## Learn More
+🏗️ Pages
+Home – A compelling introduction with visuals of mining and construction safety.
+Services – Detailed insights into our AI-driven safety solutions.
+Industries – A look into how we impact mining and construction sectors.
+About Us – Company history, mission, and team introduction.
+Contact Us – Get in touch via our form, email, or phone
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🎨 Design & Technology
+🔹 Framework: Next.js (v15.1.6)
+🔹 Styling: CSS Modules (no Tailwind CSS)
+🔹 Color Theme: Industrial Blues & Oranges (#2E4053, #FFA07A)
+🔹 Typography: Clean, professional sans-serif fonts (Open Sans, Montserrat)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📂 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+/nhanha-engineering
+ ├── app/                     # Next.js App Router structure
+ │   ├── services/            # Services Page
+ │   ├── industries/          # Industries Page
+ │   ├── about/               # About Us Page
+ │   ├── contact/             # Contact Page
+ │   ├── layout.js            # Main Layout
+ │   ├── page.js              # Homepage
+ ├── components/              # Reusable UI Components
+ │   ├── Navbar.js            # Top Navigation Bar
+ │   ├── Footer.js            # Footer (separately styled)
+ ├── styles/                  # CSS Modules
+ ├── public/                  # Static Assets (Images, Icons)
+ ├── README.md                # Project Documentation
+ ├── package.json             # Dependencies & Scripts
+ ├── next.config.js           # Next.js Configuration
+
+
+
+
+🔧 Installation & Running Locally
+To run the project on your local machine:
+
+1️⃣ Clone the repository: git clone https://github.com/your-username/nhanha-engineering.git
+cd nhanha-engineering
+
+2️⃣ Install dependencies:npm install
+
+
+3️⃣ Start the development server:npm run dev
+
+
+4️⃣ Open http://localhost:3000 in your browser.
+
+
+📩 Contact Us
+📍 Location: 65 First Avenue, Geelhout Park, Rustenburg, 0300, South Africa
+📧 Email: okuhlebadli@outlook.com
+📞 Phone: (+27)69 555 6960
+🌐 Website: www.nhanhaengineering.co.za
+
+
