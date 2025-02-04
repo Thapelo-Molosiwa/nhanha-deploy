@@ -26,10 +26,10 @@ const Navbar = () => {
           {/* Make the logo the home link */}
           <Link href="/" className={styles.logoText}>
             <Image
-              src="/WhatsApp_Image_2025-02-03_at_12.59.33__1_-removebg-preview.png" // Path to your logo image in the public folder
+              src="/WhatsApp_Image_2025-02-03_at_17.21.46__1_-removebg-preview.png" // Path to your logo image in the public folder
               alt="NhaNha Engineering Logo"
-              width={180} // Adjust width to your desired size
-              height={180} // Adjust height to match the logo's aspect ratio
+              width={190} // Adjust width to your desired size
+              height={95} // Adjust height to match the logo's aspect ratio
               className={styles.logoImage}
             />
           </Link>

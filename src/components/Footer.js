@@ -44,7 +44,7 @@ const Footer = () => {
               </li>
               <li className={styles.contactItem}>
                 <MapPin size={16} />
-                <span>123 nhanha, Rustenburg</span>
+                <span>65 First Avenue, Geelhout park, Rustenburg, 0300</span>
               </li>
             </ul>
           </div>
