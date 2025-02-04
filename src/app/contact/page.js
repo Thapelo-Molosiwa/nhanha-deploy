@@ -47,7 +47,7 @@ export default function Contact() {
           <div className={styles.contactInfoItem}>
             <FaMapMarkerAlt className={styles.contactIcon} />
             <h3>Our Location</h3>
-            <p>Rustenburg, South Africa</p>
+            <p>65 First Avenue, Geelhout Park, Rustenburg, 0300, South Africa</p>
           </div>
           <div className={styles.contactInfoItem}>
             <FaPhoneAlt className={styles.contactIcon} />
